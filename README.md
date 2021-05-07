@@ -12,7 +12,7 @@ int/float string convertToTime ( float num, string convertion )
 > Retorna dois valores, um **int/float** do número convertido e uma **string** do número convertido e sua unidade de tempo.
 
 ### Exemplo:
-```
+```lua
 print('7 dias para hora', convertToTime(7, 'dias>horas'))
 -- output: 7 dias para hora	168	168 horas
 print('1 semana para horas', convertToTime(1, 'semana>hora'))
